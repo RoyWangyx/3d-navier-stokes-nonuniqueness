@@ -77,9 +77,7 @@ Equation (4.44) - (4.46) in the paper:
 - $L^\infty$ bounds of the eigenvalues of $Q$
 - verification of the positivity compensation condition:
 
-  $$
-  Q + \frac{\nabla U + \nabla^T U}{2} + \eta I \ge 0
-  $$
+  $Q + \frac{\nabla U + \nabla^T U}{2} + \eta I \ge 0$
 
 ---
 
@@ -99,10 +97,8 @@ Equation (4.47) - (4.51) in the paper:
 Equation (4.52) - (4.55) in the paper:
 - verification of matrix elements
 
-  $$
-  A_{ij} = \langle \psi_i^{s}, Q \psi_j^{s} \rangle, \quad
-  B_{ij} = \langle \psi_i^{s}, \psi_j^{s} \rangle_{H^1}
-  $$
+  $A_{ij} = \langle \psi_i^{s}, Q \psi_j^{s} \rangle, \quad
+  B_{ij} = \langle \psi_i^{s}, \psi_j^{s} \rangle_{H^1}$
 
   where $\psi_i^{s}$ are eigenfunctions of the vector Laplacian on the unit ball satisfying the boundary conditions described in the paper.
 
