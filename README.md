@@ -106,17 +106,13 @@ Equation (4.52) - (4.55) in the paper:
 
 - verification of the approximate eigenpairs $(\lambda_i,\psi_i)$ of the eigenvalue problem
 
-  $
-  A \psi = \lambda_i B \psi
-  $
+  $A \psi = \lambda_i B \psi$
 
   and verification of the spectral lower bound
 
-  $
-  \langle (A - \sum_{i=1}^k \lambda_i \psi_i \psi_i^T) u, u \rangle \;\ge\; \lambda_{k+1} \langle B u, u \rangle
+  $\langle (A - \sum_{i=1}^k \lambda_i \psi_i \psi_i^T) u, u \rangle \;\ge\; \lambda_{k+1} \langle B u, u \rangle
   \quad
-  \text{for all } u,
-  $
+  \text{for all } u,$
 
   where $\lambda_i$, $\psi_i$, and $\lambda_{k+1}$ are approximate eigenvalues and eigenfunctions.
 
@@ -127,43 +123,31 @@ Equation (4.52) - (4.55) in the paper:
 Equation (4.56) - (4.60) in the paper:
 - computation of the residual functions
 
-  $
-  r_i = \mathcal{L} \phi_i - Q \psi_i,
-  $
+  $r_i = \mathcal{L} \phi_i - Q \psi_i,$
 
   where $\mathcal{L}$ is the linearized operator, $\psi_i$ are the (approximate) eigenpairs of the generalized eigenvalue problem $A x = \lambda B x$ defined above, and $\phi_i$ are the constructed approximate solutions.
 
 - verification of the inner product bounds
 
-  $
-  \langle G^R, G^Q \rangle, \quad
-  \langle G^Q, G^Q \rangle
-  $
+  $\langle G^R, G^Q \rangle, \quad
+  \langle G^Q, G^Q \rangle$
 
   where we define the residual Gram matrix $G^R$ as
 
-  $
-  G^R_{ij} = \langle r_i, r_j \rangle,
-  $
+  $G^R_{ij} = \langle r_i, r_j \rangle,$
 
   and the Gram matrix $G^Q$ as
 
-  $
-  G^Q_{ij} = \langle Q \psi_i, Q \psi_j \rangle,
-  $
+  $G^Q_{ij} = \langle Q \psi_i, Q \psi_j \rangle,$
 
 - verification of $L^2$ bounds of the interaction terms
 
-  $
-  \phi_i \cdot \nabla \phi_j
-  $
+  $\phi_i \cdot \nabla \phi_j$
 
   (with $\ell^2$ norm taken over the index $i,j$).
 
 - verification of $L^\infty$ bounds of the gradients
-  $
-  \nabla \phi_i
-  $
+  $\nabla \phi_i$
   and $L^2$ bounds of the functions $\phi_i$
 
   (with $\ell^2$ norm taken over the index $i$).
@@ -176,9 +160,7 @@ Equation (4.61) - (4.63) in the paper:
   `selfsimilar_linear_operator_finite_rank.ipynb`.
 
 - verification of the same inner products involving $G^R$ and $G^Q$:
-  $
-  \langle G^R, G^Q \rangle, \quad \langle G^Q, G^Q \rangle,
-  $
+  $\langle G^R, G^Q \rangle, \quad \langle G^Q, G^Q \rangle,$
   where the matrices $G^R$ and $G^Q$ defined analogously to those in
   `selfsimilar_linear_operator_finite_rank.ipynb`
 
