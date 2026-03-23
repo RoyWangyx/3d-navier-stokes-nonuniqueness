@@ -110,7 +110,7 @@ Equation (4.52) - (4.55) in the paper:
 
   and verification of the spectral lower bound
 
-  $\langle (A - \sum_{i=1}^k \lambda_i \psi_i \psi_i^T) u, u \rangle \;\ge\; \lambda_{k+1} \langle B u, u \rangle
+  $\langle (A - \sum_{i=1}^k \lambda_i \psi_i \psi_i^T) u, u \rangle\ge \lambda_{k+1} \langle B u, u \rangle
   \quad
   \text{for all } u,$
 
@@ -129,8 +129,8 @@ Equation (4.56) - (4.60) in the paper:
 
 - verification of the inner product bounds
 
-  $\langle G^R, G^Q \rangle, \quad
-  \langle G^Q, G^Q \rangle$
+  $\langle G^R, G^{Q^2} \rangle, \quad
+  \langle G^{Q^2}, G^{Q^2} \rangle$
 
   where we define the residual Gram matrix $G^R$ as
 
@@ -138,7 +138,7 @@ Equation (4.56) - (4.60) in the paper:
 
   and the Gram matrix $G^Q$ as
 
-  $G^Q_{ij} = \langle Q \psi_i, Q \psi_j \rangle,$
+  $G^{Q^2}_{ij} = \langle Q \psi_i, Q \psi_j \rangle/\lambda_i\lambda_j,$
 
 - verification of $L^2$ bounds of the interaction terms
 
