@@ -159,9 +159,9 @@ Equation (4.61) - (4.63) in the paper:
 - computation of the residual functions $r_i$ similarly defined to those in
   `selfsimilar_linear_operator_finite_rank.ipynb`.
 
-- verification of the same inner products involving $G^R$ and $G^Q$:
-  $\langle G^R, G^Q \rangle, \quad \langle G^Q, G^Q \rangle,$
-  where the matrices $G^R$ and $G^Q$ defined analogously to those in
+- verification of the same inner products involving $G^R$ and $G^{Q^2}$:
+  $\langle G^R, G^{Q^2} \rangle, \quad \langle G^{Q^2}, G^{Q^2} \rangle,$
+  where the matrices $G^R$ and $G^{Q^2}$ defined analogously to those in
   `selfsimilar_linear_operator_finite_rank.ipynb`
 
 - $L^2$ bounds of the functions $\phi_i$ (with $\ell^2$ norm taken over the index $i$).
