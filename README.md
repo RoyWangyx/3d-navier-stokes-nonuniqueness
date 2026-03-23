@@ -136,7 +136,7 @@ Equation (4.56) - (4.60) in the paper:
 
   $G^R_{ij} = \langle r_i, r_j \rangle,$
 
-  and the Gram matrix $G^Q$ as
+  and the Gram matrix $G^{Q^2}$ as
 
   $G^{Q^2}_{ij} = \langle Q \psi_i, Q \psi_j \rangle/\lambda_i\lambda_j,$
 
